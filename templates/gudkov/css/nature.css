@@ -22,6 +22,10 @@ body
 	font-family: arial, helvetica, sans-serif;
 }
 
+body#inner {
+    background: #fff url(../images/header_bg.png) repeat-x center -342px;
+}
+
 #all
 {
 	color: #333;
@@ -135,10 +139,8 @@ h1#logo
 {
 	color:#396375;
 	border:0;
-	/*border-right:solid 1px #237D85;*/
 	background:transparent;
-	/*padding:10px ;*/
-    padding: 0 0 0 26px;
+    padding: 0 13px 47px 13px;
 }
 
 
@@ -147,20 +149,20 @@ h1#logo
 #header ul.menu li a:focus
 {
 	color:#e21d5d;
-/*	background:#bddfb3;*/
-    padding: 0 0 0 26px;
-	/*padding:10px*/
+    padding: 0 13px 47px 13px;
 }
 
 #header ul li.active a:link,
 #header ul li.active a:visited
 {
 	color:#e21d5d;;
-/*	border-right:solid 1px #237D85;*/
-/*	background:#bddfb3 !important;*/
-    padding: 0 0 0 26px;
-	/*padding: 10px  ;*/
+    padding: 0 13px 47px 13px;
+}
 
+#inner #header ul li.active a:link,
+#inner #header ul li.active a:visited
+{
+  background: url('../images/inner_active.png') center bottom no-repeat;
 }
 
 .skiplinks,

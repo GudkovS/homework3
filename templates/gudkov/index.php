@@ -98,7 +98,13 @@ $doc->addScript($this->baseurl.'/templates/'.$this->template.'/javascript/hide.j
 
 </head>
 
-<body>
+<?php
+if (JURI::current() == JURI::base() || JURI::current() == JURI::base() . 'index.php') {
+  echo '<body>';
+  } else {
+  echo '<body id="inner">';
+}
+?>
 
 <div id="all">
         <div id="back">
