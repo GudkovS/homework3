@@ -234,7 +234,7 @@ if (JURI::current() == JURI::base() || JURI::current() == JURI::base() . 'index.
                                 <div id="footer">
 
                                         <jdoc:include type="modules" name="position-14" />
-                                        
+
                                 </div><!-- end footer -->
 
                         </div>
