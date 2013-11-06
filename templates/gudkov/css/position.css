@@ -427,3 +427,11 @@ img { border: 0 none; }
     z-index: 1;
     display: block;
 }
+
+.simple_img img {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+

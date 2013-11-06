@@ -234,11 +234,7 @@ if (JURI::current() == JURI::base() || JURI::current() == JURI::base() . 'index.
                                 <div id="footer">
 
                                         <jdoc:include type="modules" name="position-14" />
-                                        <p>
-                                                <?php echo JText::_('TPL_BEEZ2_POWERED_BY');?> <a href="http://www.joomla.org/">Joomla!&#174;</a>
-                                        </p>
-
-
+                                        
                                 </div><!-- end footer -->
 
                         </div>

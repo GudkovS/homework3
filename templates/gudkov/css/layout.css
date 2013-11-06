@@ -2254,3 +2254,101 @@ div.feed {
 	margin-left: 10px;
 	margin-bottom: 10px;
 }
+
+/* ++++++++++++++  Social links in top module  +++++++++++++ */
+#header ul.links {
+    margin: 31px 558px 60px 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#header ul.links li {
+    float: left;
+    padding-left: 4px;
+    padding-right: 4px;
+    text-align: left;
+    width: 24px;
+}
+
+#header ul.links li a {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url(../images/icons_social.png);
+    display: block;
+    height: 23px;
+    padding: 0px;
+    text-indent: -400px;
+}
+
+#header ul.links li.fb a {
+    background-position: 0px 0px;
+}
+
+
+#header ul.links li.vk a {
+    background-position: -32px 0px;
+}
+
+#header ul.links li.tw a {
+    background-position: -64px 0px;
+}
+
+#header ul.links li.yb a {
+    background-position: -96px 0px;
+}
+
+/* ++++++++++++++  Sponsors on Certificates on footer module  +++++++++++++ */
+
+#sponsors ul li {
+    float: left;
+    padding-left: 7px;
+    padding-right: 7px;
+    text-align: left;
+    width: 70px;
+}
+
+#sponsors ul li a {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url(../images/sponsors.png);
+    display: block;
+    height: 60px;
+    padding: 0px;
+    text-indent: -1000px;
+}
+
+#sponsors ul li.de a {
+    background-position: 0px 60px;
+}
+
+#sponsors ul li.moc a {
+    background-position: 342px 60px;
+}
+
+#sponsors ul li.sergium a {
+    background-position: 244px 60px;
+}
+
+#sponsors ul li.val {
+    padding-left: 37px;
+}
+
+
+#sponsors ul li.val a {
+    background-position: 166px 60px;
+}
+
+#sponsors ul li.youthog a {
+    background-position: 70px 60px;
+}
+
+#sponsors h4 {
+    text-align: center;
+    font-family: "Trebuchet MS";
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    padding: 0 0 8px;
+    margin: 0 0 22px;
+    border-bottom: 1px solid #a7c3cf;
+}
